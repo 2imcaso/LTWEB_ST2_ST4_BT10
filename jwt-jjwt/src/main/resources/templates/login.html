@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dang nhap - JJWT</title>
+    <link rel="stylesheet" href="/css/vd1.css">
+</head>
+<body>
+<main class="shell">
+    <section class="card auth-card">
+        <div class="brand">JJWT</div>
+        <h1>Dang nhap</h1>
+        <p class="muted">Spring Boot 3 + Spring Security 6</p>
+        <form id="login-form">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" value="admin@example.com" required autofocus>
+            <label for="password">Mat khau</label>
+            <input id="password" name="password" type="password" value="123456" required>
+            <button type="submit">Dang nhap</button>
+        </form>
+        <p id="message" class="message" aria-live="polite"></p>
+        <p class="hint">Tai khoan mau: admin@example.com / 123456</p>
+        <p class="auth-switch">Chua co tai khoan? <a href="/signup">Dang ky ngay</a></p>
+    </section>
+</main>
+<script src="/js/main.js"></script>
+</body>
+</html>
